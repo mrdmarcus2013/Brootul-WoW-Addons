@@ -56,7 +56,7 @@ Use `/stiktalk settings` to open settings. Settings changes apply when you choos
 
 ### Public beta compatibility
 
-This candidate is **StikTalk 1.4.0-rc.7** for the WoW Forever beta client **1.60.1, build 70170, interface 16001**. Its controller integration is guarded to this exact client. Other builds, Retail, and other Classic clients are not claimed supported.
+This candidate is **StikTalk 1.4.0-rc.8** for the WoW Forever beta client **1.60.1, build 70170, interface 16001**. Its controller integration is guarded to this exact client. Other builds, Retail, and other Classic clients are not claimed supported.
 
 **Battleground chat support is pending and is not included in this candidate. Voice-to-text is not included.**
 
@@ -70,7 +70,7 @@ Install into the matching Forever beta client. For manual installation, extract 
 
 Enable **StikTalk** in the addon list. The folder name **ControllerChat** is intentional; keep it unchanged. When upgrading, preserve your saved settings and custom phrases.
 
-If using the CurseForge app, select the Forever installation and enable beta files for StikTalk. Manual ZIP installation is also supported.
+When an approved download is available, select the matching Forever installation and opt into beta files in the CurseForge app. App availability and the matching upload tag must be verified before distribution. Manual ZIP installation is also supported.
 
 ### Feedback
 
@@ -82,12 +82,12 @@ Include the addon version, game version/build, controller, and steps to reproduc
 
 ## File fields and beta changelog
 
-- ZIP: StikTalk-v1.4.0-rc.7.zip
-- Display name: StikTalk 1.4.0-rc.7 — Forever Beta
+- ZIP: StikTalk-v1.4.0-rc.8.zip
+- Display name: StikTalk 1.4.0-rc.8 — Forever Beta
 - Release type: Beta
 - Game flavor: Forever; confirm the matching version tag in the live upload form.
 - Reviewed client: 1.60.1 / 70170 / interface 16001.
-- Reported ZIP SHA-256: 8b83ddbc2b03609e5c5852b6308848f1bf8dafaf4831c7da33bc0f1cbb7e281b
+- Reported ZIP SHA-256: 446707916d2db8afe777b0c93360e099b791f94adf948a9d2db08222c52915bb
 - Never substitute a Retail or unrelated Classic version tag.
 - The actual installed addon folder remains ControllerChat.
 
@@ -97,7 +97,7 @@ Paste-ready changelog:
 >
 > Dual-stick destination and phrase selection, seven chat destinations, nine premade wheels, checked-wheel rotation, and up to five custom wheels with eight slots each. Includes message previews, adjustable appearance, and draft-based settings with Save, Discard, and Reset to Defaults.
 >
-> rc.7 adds author, license, and support metadata while preserving the accepted gameplay behavior and artwork. Existing ControllerChat settings and custom content retain their established saved-data identifiers.
+> rc.8 corrects distribution documentation following rc.7 author, license, and support metadata changes, preserving the accepted gameplay behavior and artwork. Existing ControllerChat settings and custom content retain their established saved-data identifiers.
 >
 > Supported client: WoW Forever beta 1.60.1, build 70170, interface 16001. Battleground chat and voice-to-text are not included. Please report bugs through the linked GitHub issue forms.
 
@@ -113,7 +113,7 @@ Crop for legibility while leaving enough game context to show placement. Hide or
 
 ## Upload gate and post-upload work
 
-- Confirm current available client using GetBuildInfo and confirm rc.7 works on that exact build. The reported prior acceptance does not establish compatibility with a later patch.
+- Confirm current available client using GetBuildInfo and confirm rc.8 works on that exact build. The reported prior acceptance does not establish compatibility with a later patch.
 - Inspect the actual CurseForge author-console flavor/version choices. Forever app support does not prove a particular upload tag exists.
 - Verify ZIP hash, folder structure, author, LICENSE and version against the chosen artifact.
 - Attach approved logo and real screenshots.

@@ -7,7 +7,7 @@ confirm the displayed message. Custom wheels display as `Custom - <name>`.
 
 ## Availability and compatibility
 
-Public beta preparation candidate: **1.4.0-rc.7**. No public download exists yet.
+Public beta preparation candidate: **1.4.0-rc.8**. No public download exists yet.
 CurseForge will be the primary distribution channel; a verified link will be added
 here when available. This repository does not distribute addon source or ZIPs.
 
@@ -20,8 +20,8 @@ of support for Retail, other Classic clients, or a later build. Compatibility
 with an available client must be established before offering a download for it.
 
 The author has completed in-game controller and settings/persistence acceptance
-on the accepted implementation. rc.7 changes publication metadata and licensing,
-not gameplay behavior. **Battleground chat support is pending and is not part of this beta candidate.**
+on the accepted implementation. rc.8 corrects distribution documentation following rc.7 metadata/licensing
+changes; neither changes accepted gameplay behavior. **Battleground chat support is pending and is not part of this beta candidate.**
 Live battleground acceptance is deferred until battlegrounds are available; it does
 not block testing the current chat destinations.
 Automated checks are separate from live-game acceptance. A local send attempt

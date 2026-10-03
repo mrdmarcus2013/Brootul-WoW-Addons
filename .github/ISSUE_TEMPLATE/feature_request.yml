@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an improvement to a Brootul addon.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Search existing requests first. Do not include private account details or chat content.
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      options:
+        - StikTalk
+        - Other Brootul addon (name it below)
+    validations:
+      required: true
+  - type: input
+    id: addon_name
+    attributes:
+      label: Addon name
+      placeholder: StikTalk
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the expected controller workflow if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered (optional)

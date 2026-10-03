@@ -1,0 +1,71 @@
+name: Bug report
+description: Report a problem with a Brootul addon.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. Redact account and character names, chat,
+        credentials and other private information from text and attachments.
+        Do not upload complete SavedVariables or WTF folders.
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Addon
+      options:
+        - StikTalk
+        - Other Brootul addon (name it below)
+    validations:
+      required: true
+  - type: input
+    id: addon_version
+    attributes:
+      label: Addon name and version
+      placeholder: StikTalk 1.4.0-rc.7
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game flavor, version and build
+      description: Include all three; a different build may not be supported.
+      placeholder: Forever beta, 1.60.1, build 70170
+    validations:
+      required: true
+  - type: input
+    id: controller
+    attributes:
+      label: Controller and input setup
+      description: Controller model, connection type and relevant remapping software; enter none if not applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include relevant settings and other addons involved, without private data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: lua_error
+    attributes:
+      label: Lua error (optional, redacted)
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional context (optional, redacted)
+      description: Attach only what is needed to demonstrate the problem.

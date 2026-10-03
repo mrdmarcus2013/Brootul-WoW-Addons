@@ -12,14 +12,18 @@ CurseForge will be the primary distribution channel; a verified link will be add
 here when available. This repository does not distribute addon source or ZIPs.
 
 The accepted implementation was tested on the Forever beta client **1.60.1,
-build 70170, interface 16001**. That beta is now closed. The addon deliberately
+build 70170, interface 16001**. Blizzard's announced beta testing period runs
+through October 21, 2026; temporary server downtime is separate from that schedule.
+The addon deliberately
 guards its native controller handoff to that exact client; this is not a claim
 of support for Retail, other Classic clients, or a later build. Compatibility
 with an available client must be established before offering a download for it.
 
 The author has completed in-game controller and settings/persistence acceptance
 on the accepted implementation. rc.7 changes publication metadata and licensing,
-not gameplay behavior. **Battleground support remains pending live testing.**
+not gameplay behavior. **Battleground chat support is pending and is not part of this beta candidate.**
+Live battleground acceptance is deferred until battlegrounds are available; it does
+not block testing the current chat destinations.
 Automated checks are separate from live-game acceptance. A local send attempt
 does not prove server delivery; unavailable channels block sending. Frozen
 whisper recipients can become unavailable and are never silently replaced.
